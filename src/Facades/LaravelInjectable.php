@@ -1,13 +1,13 @@
 <?php
 
-namespace Creativeorange\LaravelInjectable;
+namespace Creativeorange\LaravelInjectable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Creativeorange\LaravelInjectable\Skeleton\SkeletonClass
  */
-class LaravelInjectableFacade extends Facade
+class LaravelInjectable extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelInjectableFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return LaravelInjectable::class;
+        return \Creativeorange\LaravelInjectable\LaravelInjectable::class;
     }
 }

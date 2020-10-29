@@ -53,7 +53,7 @@
         "Creativeorange\\LaravelInjectable\\LaravelInjectableServiceProvider"
       ],
       "aliases": {
-        "LaravelInjectable": "Creativeorange\\LaravelInjectable\\LaravelInjectableFacade"
+        "LaravelInjectable": "Creativeorange\\LaravelInjectable\\Facades\\LaravelInjectable"
       }
     }
   }
