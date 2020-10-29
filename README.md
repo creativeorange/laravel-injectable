@@ -14,6 +14,8 @@ You can install the package via composer:
 composer require creativeorange/laravel-injectable
 ```
 
+If you are using [Spaties Laravel Translatable](https://github.com/spatie/laravel-translatable) this package needs an extra plugin, read instructions in: [Laravel Injectable translatable extension](https://github.com/creativeorange/laravel-translatable-and-injectable)
+
 ## Usage
 In this example we make use of a `Question` model. This model has two attributes: `name` and `description`.
 
