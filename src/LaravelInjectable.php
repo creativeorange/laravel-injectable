@@ -40,12 +40,24 @@ class LaravelInjectable
     {
     }
 
+    /**
+     * Set the body
+     *
+     * @param $body
+     * @return $this
+     */
     public function setBody($body): LaravelInjectable
     {
         $this->body = $body;
         return $this;
     }
 
+    /**
+     * Set the model
+     *
+     * @param  Model  $model
+     * @return $this
+     */
     public function setModel(Model $model): LaravelInjectable
     {
         $this->model = $model;
@@ -59,7 +71,7 @@ class LaravelInjectable
      * @param $value
      * @return LaravelInjectable
      */
-    public function set($attribute = null, $value = null): LaravelInjectable
+    public function set($attribute, $value = null): LaravelInjectable
     {
         if (is_array($attribute)) {
             foreach ($attribute as $k => $v) {
@@ -130,7 +142,7 @@ class LaravelInjectable
      * @param $value
      * @return LaravelInjectable
      */
-    public function inject($attribute = null, $value = null): LaravelInjectable
+    public function inject($attribute, $value = null): LaravelInjectable
     {
         if (is_array($attribute)) {
             foreach ($attribute as $key => $value) {
