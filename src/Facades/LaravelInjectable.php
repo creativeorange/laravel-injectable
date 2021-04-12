@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static \Creativeorange\LaravelInjectable\LaravelInjectable setModel(\Illuminate\Database\Eloquent\Model $model)
  * @method static \Creativeorange\LaravelInjectable\LaravelInjectable setBody($body)
- * @method static \Creativeorange\LaravelInjectable\LaravelInjectable set(string|array $attribute, string|null $value)
+ * @method static \Creativeorange\LaravelInjectable\LaravelInjectable set(string|array $attribute, string|null $value = null)
  * @method static array getAllInjectables()
  * @method static array getStaticAttributes()
  * @method static array getModelAttributes()
  * @method static array getAttributes()
- * @method static \Creativeorange\LaravelInjectable\LaravelInjectable inject(string|array $attribute, string|null $value)
+ * @method static \Creativeorange\LaravelInjectable\LaravelInjectable inject(string|array $attribute, string|null $value = null)
  * @method static bool exists(string $email)
  *
  * @see \Creativeorange\LaravelInjectable\LaravelInjectable
