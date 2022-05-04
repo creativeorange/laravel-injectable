@@ -14,6 +14,8 @@ You can install the package via composer:
 composer require creativeorange/laravel-injectable
 ```
 
+For Laravel 8 and lower you should require version 1.
+
 If you are using [Spaties Laravel Translatable](https://github.com/spatie/laravel-translatable) this package needs an extra plugin, read instructions in: [Laravel Injectable translatable extension](https://github.com/creativeorange/laravel-translatable-and-injectable)
 
 ## Usage
